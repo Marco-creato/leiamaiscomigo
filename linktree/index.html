@@ -7,16 +7,16 @@
     <title>Leia Mais Comigo</title>
     <style>
         body{
-            background-color: black;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-size: 14pt;
         }
 
         main{
-            background-color: crimson;
+            background-color: rgb(255, 255, 255);
             background-image: url(./image/background-top.jpg);
             background-position: center;
             background-size: cover;
+            height: 100vh;
         }
 
         #logo{
@@ -31,12 +31,15 @@
         }
 
         h1{
-            color: white;
+            color: rgb(0, 0, 0);
             text-align: center;
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             padding-top: 20px;
             padding-bottom: 20px;
             /* padding-top: 20px; é padding-bottom: 20px; ou padding: 20px 0; são iguais */
+            margin: auto;
+            border-radius: 15px;
+            width: 80%;
         }
 
         .link-social{
@@ -45,13 +48,17 @@
 
         .link-social a{
             padding: 20px;
-            background-color: black;
-            color: white;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             text-decoration: none;
             border-radius: 15px;
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 80%;
+            min-width: 300px;
+            max-width: 400px;
         }
     </style>
 </head>
