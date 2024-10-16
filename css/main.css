@@ -1,11 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@400;500;700;900&display=swap');
+
+@import "./nav.css";
 :root{
     --blue: #4242ff;
     --white: #eeeeee;
     --black: #222222;
     --gray: #444444;
     --shawdow: rgb(0, 0, 0, 0.35);
-    --font-title: "serif";
-    --font-primary: "roboto";
+    --font-title: "Nunito", sans-serif;
+    --font-primary: "Roboto", sans-serif;
     --font-size-default: 16px;
 }
 
