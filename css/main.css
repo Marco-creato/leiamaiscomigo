@@ -7,7 +7,7 @@
     --white: #eeeeee;
     --black: #222222;
     --gray: #444444;
-    --shawdow: rgb(0, 0, 0, 0.35);
+    --shadow: rgb(0, 0, 0, 0.35);
     --font-title: "Nunito", sans-serif;
     --font-primary: "Roboto", sans-serif;
     --font-size-default: 16px;
@@ -31,7 +31,7 @@ a{
 
 .container{
     width: 100%;
-    min-height: 340px;
+    /* min-height: 340px; */
     max-width: 1280px;
     margin: auto;
 }
