@@ -31,7 +31,16 @@
 }
 
 .form-group button{
-    display: flex;
+    /* display: flex; */
     justify-content: right;
     gap: 10px;
+}
+
+.form-control:focus{
+    background-color: aqua;
+}
+
+.form-control:focus{
+    border: solid 2px orange;
+    box-shadow: none;
 }
